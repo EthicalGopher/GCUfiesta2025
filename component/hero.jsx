@@ -18,7 +18,7 @@ const Flower = ({ top, left }) => (
 
 export default function Hero() {
   const { RiveComponent } = useRive({
-    src:"../src/assets/hero_header.riv",
+    src:"hero_header.riv",
     layout: new Layout({
       fit: Fit.Cover, // Changed to Cover for better visibility
     }),
