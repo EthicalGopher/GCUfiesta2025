@@ -46,8 +46,8 @@ export default function Hero() {
       </div>
 
       {/* Rive animation - positioned on top with proper sizing */}
-      <div className="md:h-screen h-screen flex justify-center items-center">
-      <div className=" relative z-20 md:w-full md:h-full h-60 w-full">
+      <div className="w-full  h-screen flex justify-center items-center">
+      <div className=" relative z-20 w-full xl:h-full lg:h-100 md:h-96 h-60 w-full">
         
         <RiveComponent 
           style={{ 
