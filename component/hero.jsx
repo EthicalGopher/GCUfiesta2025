@@ -42,12 +42,18 @@ export default function Hero() {
       <div className="">
 
       <Leaf top={10} left={10} degree={0} />
+      <div className={"md:visible invisible"}>
+
       <Leaf top={80} left={80} degree={90} />
+        </div>
+      <div className={"md:invisible visible"}>
+      <Leaf top={30} left={80} degree={90}/>
+      </div>
       </div>
 
       {/* Rive animation - positioned on top with proper sizing */}
-      <div className="w-full  h-screen flex justify-center items-center">
-      <div className=" relative z-20 w-full xl:h-full lg:h-100 md:h-96 h-60 w-full">
+      <div className="w-full  md:h-screen h-[50vh] flex justify-center items-center">
+      <div className=" relative z-20 w-full xl:h-full lg:h-100 md:h-96 h-60">
         
         <RiveComponent 
           style={{ 
