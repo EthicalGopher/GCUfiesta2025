@@ -13,15 +13,10 @@
      id="defs1" />
   <g
      id="layer1">
-    <text
-       xml:space="preserve"
-       style="font-size:602.323px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:18.2617;stroke-linejoin:round"
-       x="94.159653"
-       y="878.80688"
-       id="text1"><tspan
-         id="tspan1"
-         x="94.159653"
-         y="878.80688"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Press Start 2P';-inkscape-font-specification:'Press Start 2P';stroke-width:18.2617">GCU</tspan></text>
+    <path
+       style="font-size:602.323px;font-family:'Press Start 2P';-inkscape-font-specification:'Press Start 2P';stroke-width:18.2617;stroke-linejoin:round"
+       d="M 244.7404,803.51651 V 728.22614 H 169.45003 V 652.93576 H 94.159653 V 427.06464 h 75.290377 v -75.29038 h 75.29037 v -75.29037 h 376.45188 v 75.29037 h -301.1615 v 75.29038 H 244.7404 v 225.87112 h 75.29038 v 75.29038 H 470.61153 V 577.64539 h -75.29038 v -75.29038 h 225.87113 v 301.1615 z m 602.323,0 V 728.22614 H 771.77303 V 652.93576 H 696.48265 V 427.06464 h 75.29038 v -75.29038 h 75.29037 v -75.29037 h 301.1615 v 75.29037 h 75.2904 v 75.29038 H 1072.9345 V 351.77426 H 922.35378 v 75.29038 H 847.0634 v 225.87112 h 75.29038 v 75.29038 h 150.58072 v -75.29038 h 150.5808 v 75.29038 h -75.2904 v 75.29037 z m 527.0326,0 v -75.29037 h -75.2904 V 276.48389 h 150.5808 v 451.74225 h 225.8711 V 276.48389 h 150.5808 v 451.74225 h -75.2904 v 75.29037 z"
+       id="text1"
+       aria-label="GCU" />
   </g>
 </svg>
