@@ -1,12 +1,7 @@
-div.SVGCircleCarousel {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-}
 
-div.SVGCircleCarousel svg {
-    /* background-color: #eee; */
+/*
+div.SVGCircleCarousel img {
+    background-color: #eee;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -15,6 +10,13 @@ div.SVGCircleCarousel svg {
     transform: translate(-50%, -50%);
     transform-box: fill-box;
     transform-origin: center;
+}
+*/
+
+div.SVGCircleCarousel img {
+    width: 500px;
+
+    display: block;
 }
 
 

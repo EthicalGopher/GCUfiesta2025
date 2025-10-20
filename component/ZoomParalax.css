@@ -12,7 +12,7 @@ div.zoom1 {
     overflow: hidden;
 }
 
-div.zoom1 img {
+div.zoom1 > img {
     display: block;
     position: absolute;
     top: 0;
