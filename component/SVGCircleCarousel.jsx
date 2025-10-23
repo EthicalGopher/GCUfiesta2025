@@ -36,9 +36,9 @@ function SVGCircleCarousel({ style, ref, scroll }) {
                 style={style}
                 ref={ref}
             >
-                <IMG src={circle_1} rotate={scroll * 100} scale={scroll}/>
-                <IMG src={circle_2} rotate={scroll * -100} scale={scroll}/>
-                <IMG src={circle_3} rotate={scroll * 100} scale={scroll}/>
+                <IMG src={circle_1} rotate={scroll * 150} scale={scroll}/>
+                <IMG src={circle_2} rotate={scroll * -150} scale={scroll}/>
+                <IMG src={circle_3} rotate={scroll * 150} scale={scroll}/>
             </div>
         </>
     );

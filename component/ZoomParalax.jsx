@@ -49,7 +49,7 @@ function ZoomParalax() {
 
     return (
         <>
-            {/* <ReactLenis root /> */}
+            <ReactLenis root />
             <div
                 className="zoom_paralax"
                 ref={app_container_ref}
@@ -59,7 +59,9 @@ function ZoomParalax() {
             >
                 <div className="zoom_container" ref={zoom_container_ref}>
                     <div
-                        className="zoom1"
+                        className="
+                        zoom1
+                        "
                         style={{
                             position: "sticky",
                             top: 0,

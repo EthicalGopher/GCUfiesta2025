@@ -4,6 +4,7 @@ import Hero from "../component/hero.jsx";
 import Navbar from "../component/nav.jsx";
 import Loader from "../component/loader.jsx";
 import ZoomParalax from "../component/ZoomParalax.jsx";
+import Schedule from "../component/Schedule.jsx";
 
 export default function App() {
     const [loading, setLoading] = useState(true);
@@ -26,6 +27,7 @@ export default function App() {
                         <Hero />
                     </div>
                     <ZoomParalax />
+                    <Schedule />
                 </>
             )}
         </>

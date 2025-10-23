@@ -7,7 +7,8 @@ div.zoom1 {
     height: 100vh;
     display: grid;
     place-items: center;
-    background-color: hsl(0, 0%, 6%);
+    /* background-color: hsl(0, 0%, 6%); */
+    background-color: hsl(235, 43%, 41%);
     position: sticky;
     overflow: hidden;
 }
@@ -24,7 +25,7 @@ div.zoom1 > img {
     mask-repeat: no-repeat;
     mask-size: 10%;
     mask-position: 50% center;
-    transition: all 0.2s ease-in-out;
+    /* transition: all 0.2s ease-in-out; */
     z-index: 10;
 }
 

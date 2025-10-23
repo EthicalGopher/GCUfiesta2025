@@ -1,0 +1,10 @@
+div.schedule {
+}
+
+div.schedule > div.bar {
+    background-color: hsl(235, 43%, 41%);
+}
+
+div.schedule div.dule > span.circle {
+    background-color: hsl(235, 43%, 41%);
+}

@@ -1,0 +1,16 @@
+import "./Schedule.css";
+
+function Schedule() {
+    return <div className="
+    schedule
+    min-h-screen
+    relative
+    ">
+        <h1>Schedule</h1> 
+        <div className="bar absolute top-0 bottom-0 left-50 w-[20px]">
+            
+        </div>
+    </div>
+}
+
+export default Schedule;
