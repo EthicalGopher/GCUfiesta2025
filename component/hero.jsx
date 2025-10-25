@@ -29,7 +29,7 @@ export default function Hero() {
 
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-full">
       {/* Aurora background - positioned absolutely */}
       <div className="absolute inset-0 z-0 md:visible invisible max-h-96">
         <Aurora

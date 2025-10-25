@@ -5,7 +5,7 @@ import Navbar from "../component/nav.jsx";
 import Loader from "../component/loader.jsx";
 import ZoomParalax from "../component/ZoomParalax.jsx";
 import Schedule from "../component/Schedule.jsx";
-
+import Memory from "../component/memory.jsx"
 export default function App() {
     const [loading, setLoading] = useState(true);
 
@@ -21,14 +21,24 @@ export default function App() {
             {loading ? (
                 <Loader />
             ) : (
-                <>
-                    <div className="min-h-screen hero_background ">
+                <div>
+                    <div className=" hero_background overflow-hidden">
                         <Navbar />
                         <Hero />
+                <div className="md:hidden max-w-screen">
+                    <Memory/>
+                </div>
                     </div>
+            <div>
                     <ZoomParalax />
-                    <Schedule />
-                </>
+            </div>
+            <div className="hidden md:block overflow-hidden">
+            <Memory/>
+            </div>
+            <div id="schedule">
+            <Schedule />
+            </div>
+                </div>
             )}
         </>
     );

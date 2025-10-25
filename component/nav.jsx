@@ -38,7 +38,7 @@ export default function Navbar() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  d={isOpen ? '' : 'M4 6h16M4 12h16M4 18h16'}
+                  d={isOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'}
                 ></path>
               </svg>
             </button>
@@ -67,14 +67,14 @@ export default function Navbar() {
               </button>
             </div>
             <ul className="flex flex-col items-center justify-center h-full">
-              <li className="py-2 text-center transition-all duration-300 ease-in-out delay-150">[ register ]</li>
-              <li className="py-2 text-center transition-all duration-300 ease-in-out delay-200">[ events ]</li>
+              <li className="py-2 text-center transition-all duration-300 ease-in-out delay-150"><a href="https://www.google.com" target="_blank">[ register ]</a></li>
+              <li className="py-2 text-center transition-all duration-300 ease-in-out delay-200"><a href="#schedule">[ events ]</a></li>
               <li className="py-2 text-center transition-all duration-300 ease-in-out delay-250">[ map ]</li>
             </ul>
           </div>
           <ul className="hidden md:flex md:flex-row gap-4 sm:gap-6 md:gap-8 lg:gap-11 items-center justify-end">
-            <li className="py-2 md:py-0 text-center">[ register ]</li>
-            <li className="py-2 md:py-0 text-center">[ events ]</li>
+            <li className="py-2 md:py-0 text-center"><a href="https://www.google.com" target="_blank">[ register ]</a></li>
+            <li className="py-2 md:py-0 text-center"><a href="#schedule">[ events ]</a></li>
             <li className="py-2 md:py-0 text-center">[ map ]</li>
           </ul>
         </div>
