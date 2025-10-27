@@ -57,7 +57,7 @@ function ZoomParalax() {
                     position: "relative",
                 }}
             >
-                <div className="zoom_container" ref={zoom_container_ref}>
+                <div className="zoom_container" ref={zoom_container_ref} style={{ position: "relative" }}>
                     <div
                         className="
                         zoom1

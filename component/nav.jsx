@@ -69,13 +69,13 @@ export default function Navbar() {
             <ul className="flex flex-col items-center justify-center h-full">
               <li className="py-2 text-center transition-all duration-300 ease-in-out delay-150"><a href="https://www.google.com" target="_blank">[ register ]</a></li>
               <li className="py-2 text-center transition-all duration-300 ease-in-out delay-200"><a href="#schedule">[ events ]</a></li>
-              <li className="py-2 text-center transition-all duration-300 ease-in-out delay-250">[ map ]</li>
+              <li className="py-2 text-center transition-all duration-300 ease-in-out delay-250"><a href="https://maps.app.goo.gl/gj7j57ZEZB3m4srz6" target="_blank">[ map ]</a></li>
             </ul>
           </div>
           <ul className="hidden md:flex md:flex-row gap-4 sm:gap-6 md:gap-8 lg:gap-11 items-center justify-end">
             <li className="py-2 md:py-0 text-center"><a href="https://www.google.com" target="_blank">[ register ]</a></li>
             <li className="py-2 md:py-0 text-center"><a href="#schedule">[ events ]</a></li>
-            <li className="py-2 md:py-0 text-center">[ map ]</li>
+            <li className="py-2 md:py-0 text-center"><a href="https://maps.app.goo.gl/gj7j57ZEZB3m4srz6" target="_blank">[ map ]</a></li>
           </ul>
         </div>
       </div>
