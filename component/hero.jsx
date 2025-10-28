@@ -47,7 +47,7 @@ export default function Hero() {
       <Leaf top={80} left={80} degree={90} />
         </div>
       <div className={"md:invisible visible"}>
-      <Leaf top={30} left={80} degree={90}/>
+      <Leaf top={80} left={80} degree={90}/>
       </div>
       </div>
 

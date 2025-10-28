@@ -53,19 +53,19 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.facebook.com/gcuniversityassam"
                 className="p-3 bg-gray-700 text-white rounded-full hover:bg-blue-500 transition-all duration-300 hover:scale-110"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/gcuniversityassam"
                 className="p-3 bg-gray-700 text-white rounded-full hover:bg-green-500 transition-all duration-300 hover:scale-110"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://x.com/GCUniversityA"
                 className="p-3 bg-gray-700 text-white rounded-full hover:bg-red-500 transition-all duration-300 hover:scale-110"
               >
                 <Twitter className="w-5 h-5" />
@@ -74,11 +74,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="pt-8 border-t border-gray-700 text-center text-gray-500">
-          <p>© 2025 Cultural Fest. All rights reserved.</p>
-          <p className="text-sm mt-2">Made with ❤️ by the Cultural Committee</p>
-        </div>
+   
       </div>
     </footer>
   );
