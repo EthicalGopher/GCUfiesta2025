@@ -6,12 +6,12 @@ const Gallery = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   const images = [
-    { src: "https://images2.imgbox.com/01/d7/HArIwlSo_o.png", category: "french", title: "French Café Experience", description: "Elegant Parisian atmosphere" },
-    { src:"https://images2.imgbox.com/9c/62/xAWc2zGh_o.png ",category: "russian", title: "Russian Folk Dance", description: "Traditional performances" },
-    { src: "https://images2.imgbox.com/d5/5d/XJSw8qC1_o.png",category: "japanese", title: "Tea Ceremony", description: "Zen and tranquility" },
-    { src: "https://images2.imgbox.com/8b/8e/RKrrG7CN_o.png", category: "french", title: "Cultural Unity", description: "Three cultures, one celebration" },
-    { src: "https://thumbs2.imgbox.com/7b/4a/dHjuPDXx_t.png",category: "russian", title: "Art Exhibition", description: "Student masterpieces" },
-        { src: "https://thumbs2.imgbox.com/99/72/dZrLv4yO_t.png", category: "japanese", title: "Origami Workshop", description: "Traditional paper art" },
+    { src: "https://images2.imgbox.com/01/d7/HArIwlSo_o.png", category: "cosplay", title: "Tokyo Ghoul",description: "Cosplay of Ken Kaneki" },
+        { src: "https://images2.imgbox.com/9c/62/xAWc2zGh_o.png", category: "cosplay", title: "Cosplay",description:"Anime Cosplay" },
+    { src: "https://images2.imgbox.com/8b/8e/RKrrG7CN_o.png", category: "cosplay", title: "Naruto", description: "Cosplay of Naruto"},
+    { src: "https://thumbs2.imgbox.com/7b/4a/dHjuPDXx_t.png", category: "cosplay",title: "Call of Duty", description: "Cosplay of ghost" },
+     { src: "https://images2.imgbox.com/d5/5d/XJSw8qC1_o.png",category: "yukata", title: "Yukata ", description: "Display of beautiful yukatas" },
+    { src: "https://thumbs2.imgbox.com/99/72/dZrLv4yO_t.png", category: "games", title: "Japanese Games",description: "Traditional Japanese Games" },
       ];
 
   const [visibleImages, setVisibleImages] = useState(() => {
@@ -43,10 +43,10 @@ const Gallery = () => {
   }, [activeCategory, isMobile]);
     
       const categories = [
-        { id: "all", label: "All Cultures", colorClass: "bg-primary" },
-        { id: "french", label: "French", colorClass: "bg-primary" },
-        { id: "russian", label: "Russian", colorClass: "bg-primary" },
-    { id: "japanese", label: "Japanese", colorClass: "bg-primary" },
+        { id: "all", label: "All", colorClass: "bg-primary" },
+        { id: "cosplay", label: "Cosplay", colorClass: "bg-primary" },
+        { id: "games", label: "Games", colorClass: "bg-primary" },
+        { id: "yukata", label: "Yukata", colorClass: "bg-primary" },
   ];
 
   const filteredImages = activeCategory === "all" 
@@ -59,7 +59,7 @@ const Gallery = () => {
     <section id="gallery" className="py-20 px-4 bg-muted/30 relative">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12 animate-fade-in">
-          <h2 className="text-5xl md:text-6xl font-bold font-['Cinzel'] mb-6 bg-gradient-cultural bg-clip-text text-transparent">
+          <h2 className="text-5xl md:text-6xl font-bold font-['Cinzel'] mb-6 text-black">
             Photo Gallery
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
