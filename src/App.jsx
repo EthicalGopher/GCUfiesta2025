@@ -7,6 +7,7 @@ import ZoomParalax from "../component/ZoomParalax.jsx";
 import Schedule from "../component/Schedule.jsx";
 import Memory from "../component/memory.jsx"
 import Footer from "../component/footer.jsx";
+import Sponsors from "../component/Sponsors.jsx";
 
 export default function App() {
     const [loading, setLoading] = useState(true);
@@ -36,6 +37,7 @@ export default function App() {
             <Memory/>
             </div>
             <Schedule />
+            <Sponsors />
             <Footer />
                 </div>
             )}

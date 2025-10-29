@@ -1,5 +1,5 @@
 div.zoom_container {
-    height: 280vh;
+    height: 230vh;
     position: relative;
 }
 
@@ -21,9 +21,10 @@ div.zoom1 > img {
     height: 100vh;
     width: 100%;
     object-fit: cover;
-    mask-image: url("../src/assets/gcu-mask-img.svg");
+    mask-image: url("../src/assets/gcu-mask-img2.svg");
     mask-repeat: no-repeat;
-    mask-size: 10%;
+    /* mask-size: 10%; */
+    mask-size: 20%;
     mask-position: 50% center;
     /* transition: all 0.2s ease-in-out; */
     z-index: 10;

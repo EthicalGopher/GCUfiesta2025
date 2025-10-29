@@ -14,7 +14,7 @@ function IMG({ src, rotate=0, scale=1 }) {
             top-1/2
             left-1/2
             origin-center
-            w-500
+            w-200
         `}
             style={{
                 transform: `translate(-50%, -50%) rotate(${rotate}deg) scale(${1 + scale * 10})`,

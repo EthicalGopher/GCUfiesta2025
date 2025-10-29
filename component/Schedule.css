@@ -1,7 +1,7 @@
 div.schedule {
 }
 
-div.schedule > div.bar {
+div.schedule div.bar {
     background-color: hsl(235, 43%, 41%);
 }
 

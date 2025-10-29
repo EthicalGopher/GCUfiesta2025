@@ -9,6 +9,9 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+    --color-me-light-10: hsl(0, 0%, 98%);
+    --color-me-light-20: hsl(0, 0%, 93%);
+    --color-me-light-30: hsl(0, 0%, 90%);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);

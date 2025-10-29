@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Facebook, Instagram, Twitter } from "lucide-react";
+import gcu_logo from "@/assets/GCU-Logo-White.png";
 
 const Footer = () => {
   return (
@@ -75,6 +76,9 @@ const Footer = () => {
         </div>
 
    
+      </div>
+      <div className="grid place-items-center">
+        <img className="w-80" src={gcu_logo} alt="" />
       </div>
     </footer>
   );

@@ -22,11 +22,13 @@ function ZoomParalax() {
 
     const { scrollYProgress } = useScroll({
         target: zoom_container_ref,
-        offset: ["start start", "end start"]
+        offset: ["start start", "end center"]
     });
 
     useMotionValueEvent(scrollYProgress, "change", (latest) => {
+        console.log(latest);
         setScrollSVGCarousel(latest);
+        setMaskPosVal(50 - (11 * latest));
         const tmp = latest * 280;
         if (tmp < 55) {
             setZoomIncrementValue(10);
@@ -75,8 +77,7 @@ function ZoomParalax() {
                             scroll={scrollSVGCarousel}
                         />
                         <motion.img src={gimt_building_img} alt="gimt_building_img" style={{
-                            maskSize: `calc(10% + ${1490 * scrollSVGCarousel / zoomIncrementValue}%)`,
-                              maskPosition: `${maskPosVal}% center`, 
+                            maskSize: `calc(20% + ${500 * scrollSVGCarousel}%)`,
                         }}/>
                     </div>
                 </div>
@@ -85,4 +86,6 @@ function ZoomParalax() {
     );
 }
 
+                            // maskSize: `calc(10% + ${1490 * scrollSVGCarousel}%)`,
+                            // maskSize: `calc(10% + ${1490 * scrollSVGCarousel / zoomIncrementValue}%)`,
 export default ZoomParalax;
