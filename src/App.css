@@ -6,7 +6,8 @@ background-size: cover;
 
   @media (max-width: 768px) {                                       
    .hero_background { 
-  background: url(./assets/mobile_background.jpg);
+  background: url(./assets/mobile_bg.png) no-repeat;
+  background-size:contain;
 
   }
   

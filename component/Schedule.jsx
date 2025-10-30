@@ -6,6 +6,7 @@ import "./Schedule.css";
 function Dule({ title, subtitle }) {
     return (
         <div
+      id = "schedule"
             className="
     dule
     flex

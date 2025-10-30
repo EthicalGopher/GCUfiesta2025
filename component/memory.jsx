@@ -9,9 +9,10 @@ const Gallery = () => {
     { src: "https://images2.imgbox.com/01/d7/HArIwlSo_o.png", category: "cosplay", title: "Tokyo Ghoul",description: "Cosplay of Ken Kaneki" },
         { src: "https://images2.imgbox.com/9c/62/xAWc2zGh_o.png", category: "cosplay", title: "Cosplay",description:"Anime Cosplay" },
     { src: "https://images2.imgbox.com/8b/8e/RKrrG7CN_o.png", category: "cosplay", title: "Naruto", description: "Cosplay of Naruto"},
-    { src: "https://thumbs2.imgbox.com/7b/4a/dHjuPDXx_t.png", category: "cosplay",title: "Call of Duty", description: "Cosplay of ghost" },
+    { src: "https://thumbs2.imgbox.com/bf/d7/UHaj0WaG_t.png",category: "cosplay",title: "Call of Duty", description: "Cosplay of ghost" },
      { src: "https://images2.imgbox.com/d5/5d/XJSw8qC1_o.png",category: "yukata", title: "Yukata ", description: "Display of beautiful yukatas" },
-    { src: "https://thumbs2.imgbox.com/99/72/dZrLv4yO_t.png", category: "games", title: "Japanese Games",description: "Traditional Japanese Games" },
+    { src: "https://images2.imgbox.com/da/2f/EIDp165Q_o.png", category: "games", title: "Japanese Games",description: "Traditional Japanese Games" },
+    { src:"https://images2.imgbox.com/d0/85/m6uaHl0N_o.jpg",category:"cosplay",title:"Chainsaw Man",description:"Cosplay of Makima"}
       ];
 
   const [visibleImages, setVisibleImages] = useState(() => {

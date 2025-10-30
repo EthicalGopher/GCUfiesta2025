@@ -31,16 +31,14 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4 font-['Cinzel'] text-white">Quick Links</h3>
             <div className="space-y-2">
-              <a href="#hero" className="block text-gray-400 hover:text-blue-400 transition-colors">
-                About Us
-              </a>
+             
               <a href="#gallery" className="block text-gray-400 hover:text-green-400 transition-colors">
                 Photo Gallery
               </a>
               <a href="#schedule" className="block text-gray-400 hover:text-red-400 transition-colors">
                 Event Schedule
               </a>
-              <a href="#map" className="block text-gray-400 hover:text-yellow-400 transition-colors">
+              <a href="https://maps.app.goo.gl/gj7j57ZEZB3m4srz6" target="_blank" className="block text-gray-400 hover:text-yellow-400 transition-colors">
                 Location
               </a>
             </div>
