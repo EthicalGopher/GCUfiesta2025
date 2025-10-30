@@ -31,7 +31,7 @@ export default function Navbar() {
       className={`fixed w-full z-40 text-white p-4 sm:p-6  text-lg sm:text-xl md:text-2xl transition-all duration-300 ${visible ? 'top-0' : '-top-40'} ${scrolledPastHero ? 'md:bg-black/30 md:backdrop-blur-md md:shadow-lg' : 'bg-transparent md:showdow-none'}`}
     >
       <div className="flex h-32 justify-end md:justify-between items-center w-full">
-        <img src="../src/assets/heading.png" className="w-1/9 hidden md:block"/>
+        <img src="heading.png" className="w-1/9 hidden md:block"/>
         <div className="flex items-center justify-end">
           <div className="md:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="p-2 rounded-md">
