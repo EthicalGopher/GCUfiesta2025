@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Facebook, Instagram, Twitter } from "lucide-react";
+import { Phone, MapPin, Facebook, Instagram, Twitter } from "lucide-react";
 import gcu_logo from "@/assets/GCU-Logo-White.png";
 
 const Footer = () => {
@@ -12,13 +12,10 @@ const Footer = () => {
               Contact Us
             </h3>
             <div className="space-y-3 text-gray-400">
-              <div className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-blue-400" />
-                <span>culturalfest@college.edu</span>
-              </div>
+              {/* Removed Mail */}
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-green-400" />
-                <span>+1 (555) 123-4567</span>
+                <span>70990 50019</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-red-400" />
@@ -83,4 +80,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
