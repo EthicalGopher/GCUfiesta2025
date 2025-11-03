@@ -9,16 +9,9 @@ import schedule_line from "@/assets/schedule_line.svg";
 import "./Schedule.css";
 
 function Dule({ title, subtitle }) {
-<<<<<<< HEAD
   return (
     <div
       className="
-=======
-    return (
-        <div
-      id = "schedule"
-            className="
->>>>>>> 3b32ca9120c81cd9b6b2ebb950c0bf522ef36d99
     dule
     flex
     items-center
